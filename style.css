@@ -1,0 +1,35 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	outline: none;
+}
+
+
+.main__container {
+	max-width: 1120px;
+	display: flex;
+	background-color: #59c771;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.left-side {
+	background-color: #3e9651;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px 23px 33px;
+}
+
+.left-side__menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.left-side__menu a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+}
